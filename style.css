@@ -61,9 +61,13 @@ body {
     position: absolute;
     top: 29vh;
 }
-.hpage p {
+.myp {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.myp p {
     color: #fff;
-    font-family: 'Candara' , sans-serif;
+    font-family: 'Poppins' , sans-serif;
 
 }
 .hpage img {
