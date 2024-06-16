@@ -60,6 +60,8 @@ body {
     z-index: 100;
     position: absolute;
     top: 29vh;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 .myp {
     padding-top: 5px;
@@ -68,6 +70,7 @@ body {
 .myp p {
     color: #fff;
     font-family: 'Poppins' , sans-serif;
+    font-weight: bold;
 
 }
 .hpage img {
