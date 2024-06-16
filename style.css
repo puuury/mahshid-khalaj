@@ -44,11 +44,13 @@ body {
     align-items: center;
 }
 
-.hpage h1 {
+.h01 {
     color: #fff;
-    font-family: 'Ruthligos', sans-serif;
+    /* font-family: 'Ruthligos', sans-serif; */
+    font-family: "Italianno", sans-serif;
     font-weight: bold;
-    font-size: 70px;
+    font-size: 100px;
+    padding-bottom: 10px;
 }
 .hpage h2 {
     color: #fff;
@@ -57,7 +59,7 @@ body {
     /* margin-top: -400px; */
     z-index: 100;
     position: absolute;
-    top: 30vh;
+    top: 33vh;
 }
 .hpage p {
     color: #fff;
