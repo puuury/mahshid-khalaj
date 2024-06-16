@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Ruthligos';
     src: url('/fonts/Ruthligos.ttf') format('truetype'),
-        url('/fonts/Ruthligos.woff') format('woff'),
+         url('/fonts/Ruthligos.woff') format('woff'),
          url('/fonts/Ruthligos.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
