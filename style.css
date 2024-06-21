@@ -222,14 +222,14 @@ body {
 
 .container {
     padding: 2rem;
-    height: 80vh; /* Adjust container height to 75% of the viewport height */
+    height: 100vh; /* Adjust container height to 75% of the viewport height */
 }
 
 .slider-wrapper {
     position: relative;
     max-width: 75rem;
     margin: 0 auto;
-    height: 100%; /* Make sure the slider wrapper takes the full height of the container */
+    height: 80%; /* Make sure the slider wrapper takes the full height of the container */
 }
 
 .slider {
