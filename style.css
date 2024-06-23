@@ -44,24 +44,26 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: absolute;
+
 }
 
 .h01 {
     color: #fff;
-    /* font-family: 'Ruthligos', sans-serif; */
     font-family: "Italianno", sans-serif;
     font-weight: bold;
     font-size: 4rem;
-    /* padding-bottom: 10px; */
+    position: relative;
+    top: -5rem;
 }
 .hpage h2 {
     color: #fff;
     font-family: 'Poppins' , sans-serif;
-    font-size: 50px;
+    font-size: 2.9rem;
     /* margin-top: -400px; */
     z-index: 100;
     position: absolute;
-    top: 17rem;
+    top: 7rem;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
 }
@@ -331,4 +333,27 @@ footer a {
 .youtube .yimg  img{
     width: 100vw;
     height: 90vh;
+}
+
+.smedia {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 2rem ;
+}
+
+.bmedia {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8rem;
+}
+button {
+    padding: 0.5rem 0.7rem;
+    background: #999;
+    border-radius: 9px;
+    width: 9vw;
 }
