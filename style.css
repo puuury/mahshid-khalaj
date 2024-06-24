@@ -357,3 +357,14 @@ button {
     border-radius: 9px;
     width: 9vw;
 }
+.mail {
+    width: 100%;
+    height: 15vh;
+    padding: 5rem;
+    display: flex;
+    justify-content: space-around;
+}
+.isvg {
+    display: flex;
+    justify-content: space-around;
+}
