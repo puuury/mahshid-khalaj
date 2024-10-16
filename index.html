@@ -12,19 +12,22 @@
 </head>
 <body>
     <header class="header"></header>
-    <section class="mpage">
-        <section class="hpage">
-            <div class="h01">
-                <h1 >MahshidKhalaj</h1>
+    <section class="mainPage">
+        <div class="innerPage">
+            <div class="innerOne">
+                <h1>MahshidKhalaj</h1>
             </div>
-            <img src="image/mahshidkhalaj-pageone-min.jpeg" alt="">
-            <h2>Generative Experience</h2>
-            <div class="myp">
-                <p>Visual Experience</p>
+            <div class="innerTwo">
+                <h2>Generative Experience</h2>
             </div>
-            
-        </section>
-    
+            <div class="innerImg">
+                <img src="image/mahshidkhalaj-pageone-min.jpeg" alt="mahshidkhalaj">
+            </div>
+            <div class="innerThree">
+                <h4>Visual Experience
+                </h4>
+            </div>
+        </div>
     </section>
 
     <!-- ************************* -->
@@ -160,5 +163,11 @@
         <p>Develop with love by <a href="https://www.linkedin.com/in/pourya-tamri-1a25b7286">PuuuryTamry</a></p>
     </footer>
     <script src="main.js"></script>
+    <script>
+        // وقتی صفحه لود شد، کلاس show به عنصر اضافه می‌شود
+        window.addEventListener('load', function() {
+            document.querySelector('.innerOne').classList.add('show');
+        });
+    </script>
 </body>
 </html>

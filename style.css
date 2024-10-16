@@ -31,60 +31,109 @@ body {
     width: 100%;
     height: 10vh;
 }
-.mpage {
+
+.mainPage {
     width: 100%;
-    height: 45rem;
+    height: 90vh;
     display: flex;
     justify-content: center;
-    margin-top: 5vh;
+    align-items: center;
+}
+.innerPage {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* background: #61bd65; */
+}
+.innerOne {
+    opacity: 0;
+    transform: translateY(-100px);
+    transition: transform 1s ease, opacity 1s ease; 
+    width: 100%;
+    text-align: center;
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 8.5%;
+}
+.innerOne.show {
+    opacity: 1; /* عنصر قابل مشاهده می‌شود */
+    transform: translateY(0); /* به مکان اصلی بازمی‌گردد */
+}
+.innerOne h1 {
+    font-size: 5.6rem;
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+    font-family: "Italianno", sans-serif;
+    color: #ebebeb;
+    /* -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #000; */
+    
+
+
+}
+.innerTwo {
+    width: 100%;
+    position: absolute;
+    top: 17%;
+    /* border: 2px solid red; */
+    text-align: center;
+    z-index: 100;
     
 }
-.hpage {
-    max-width: 600px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: absolute;
-
-}
-
-.h01 {
-    color: #fff;
-    font-family: "Italianno", sans-serif;
-    font-weight: bold;
-    font-size: 4rem;
-    position: relative;
-    top: -5rem;
-}
-.hpage h2 {
-    color: #fff;
+.innerTwo h2 {
     font-family: 'Poppins' , sans-serif;
-    font-size: 2.9rem;
-    /* margin-top: -400px; */
-    z-index: 100;
-    position: absolute;
-    top: 7rem;
+    font-size: 2rem;
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+    color: #fff; 
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
 }
-.myp {
-    padding-top: 8px;
-    padding-bottom: 5px;
+.innerImg {
+    width: 100%;
+    /* border: 4px solid ; */
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 20%;
+    
 }
-.myp p {
-    color: #fff;
-    font-family: 'Poppins' , sans-serif;
-    font-weight: bold;
+.innerImg img:hover {
+    box-shadow: 0 0 80px 20px rgba(0, 0, 255, 0.5), 0 0 60px 15px rgba(255, 0, 0, 0.5);
+}
+.innerImg img {
+    width: 400px;
+    border-radius: 5px;
+    transition: box-shadow 0.9s ease;
+    box-shadow: 0 0 200px 1px rgba(0, 0, 255, 0.233);
+
 
 }
-.hpage img {
-    width: 400px;
-    top: 20vh;
-    margin-top: -25vh;
-    /* margin-left: 20px ; */
-    border-radius: 10px;
-    opacity: 0.95;
+
+.innerThree {
+    width: 100%;
+    position: absolute;
+    bottom: 1%;
+    /* border: 2px solid red; */
+    text-align: center;
+    padding: 0;
+    margin: 0;
 }
+
+.innerThree h4 {
+    font-family: 'Poppins' , sans-serif;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    line-height: 1; /* یا به اندازه‌ای که دلخواه شماست */
+}
+
 /* .container {
     padding: 2rem;
 }
